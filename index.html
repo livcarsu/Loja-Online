@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Loja Online </title>
+</head>
+
+<body><p>
+
+    <header id="inicio"> 
+            <h1> Li & Ma </h1>
+        <div class="cabecalho">
+        
+        <nav>
+
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#footer">Contato</a></li>
+            </ul>
+
+           
+        
+        
+
+        <div class="fontes">
+            <p class="text_font"> Edite o tamanho da fonte </p>
+        <button id="aumentar"> + </button>
+        <button id="diminuir"> - </button>
+</div>
+        
+
+        <div class="music-player">
+            <h1 class="playlist"> Playlist </h1>
+    
+            <div class="top-bar">
+                <button id="playPauseButton" class="control-button"><i class="fas fa-play"></i> </button>
+                <input id="volumeSlider" type="range" min="0" max="1" step="0.01" value="1">
+
+        </div> 
+        <audio id="audio" src="music.mp3"></audio>
+    </div>
+
+    </nav>
+    </header>
+
+    <main id="produtos">
+        <a href=""><section class="produto">
+            <img src="1.png" alt="Camiseta estampada com um Astronauta com a frase 'crie seu próprio mundo'" >
+            <h2>Camiseta Astronauta</h2>
+            <p>Esta é uma camiseta incrível que você vai adorar!</p>
+            <p class="preco">R$ 59,99</p>
+            <button class="add">Adicionar ao Carrinho</button>
+        </section>
+</a>
+
+<a href="">
+        <section class="produto">
+            <img src="2.png" alt="Camiseta estampada com uma borboleta azul, escrito 'butterfly' nas costas">
+            <h2>Camiseta Borboleta</h2>
+            <p>Compre esta camiseta para sua coleção!</p>
+            <p class="preco">R$ 74,99</p>
+            <button class="add">Adicionar ao Carrinho</button>
+        </section>
+</a>
+
+<a href="">
+        <section class="produto">
+            <img src="3.webp" alt="Camiseta estampada da morte preta, ideal para halloween">
+            <h2>Camiseta Morte</h2>
+            <p>Esta camiseta é a sua cara, você vai adorar!</p>
+            <p class="preco">R$ 49,99</p>
+            <button class="add">Adicionar ao Carrinho</button>
+        </section>
+</a>
+
+<a href="">
+        <section class="produto">
+            <img src="4.webp" alt="Camiseta estampada com um coelho skatista">
+            <h2>Camiseta Coelho</h2>
+            <p>Você vai ser o mais estiloso com esta camiseta!</p>
+            <p class="preco">R$ 114,99</p>
+            <button class="add">Adicionar ao Carrinho</button>
+        </section>
+    </a>
+    
+    </main>
+
+    <div class="video">
+    
+        <video id="video" controls>
+            <source src="video2.mp4" type="video/mp4">
+            <track kind="subtitles" srclang="pt-br" label="pt-br" src="legenda.vtt" default>
+        </video>
+    </div>
+    
+    <div id="gif-container">
+        <img id="animated-gif" src="gif.gif" alt="Gif animado">
+        <button id="pause-button">Pause</button>
+    </div>
+
+<script src="script.js"></script>
+</body>
+
+<footer id="footer">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.355011696648!2d-48.044865125004826!3d-23.62745396402308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5cba99a9f4e91%3A0xc97bceb3a2e1cc0d!2sEtec%20Darcy%20Pereira%20de%20Moraes!5e0!3m2!1spt-BR!2sbr!4v1693783650736!5m2!1spt-BR!2sbr" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<br>
+    <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjHuufyi5GBAxXjLLkGHWkLA54QFnoECBMQAQ&url=https%3A%2F%2Fwww.instagram.com%2Fetecdarcypereira%2F&usg=AOvVaw0WBnI771MdO5ilbLZwLaJu&opi=89978449">
+    <img class="icon" src="insta.png" alt="Entre no perfil do instagram da loja"></a>
+    
+    <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjY6buAi5GBAxXQLrkGHdP_BeEQFnoECBAQAQ&url=https%3A%2F%2Fwww.facebook.com%2Fetecdpmitapetininga%2F%3Flocale%3Dpt_BR&usg=AOvVaw0Jrmy4leTh_N_eZCwUVwub&opi=89978449"><img  class="icon" src="face.png" alt="Entre no perfil do facebook da loja" ></a>
+
+    
+    <p>© 2023 Minha Loja de Camisetas</p>
+</footer>
+
+</p>
+</html>
